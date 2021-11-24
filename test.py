@@ -4,7 +4,7 @@
 import unittest
 from program import factorial
 
-class TestMean(unittest.TestCase):
+class TestFactorial(unittest.TestCase):
     def test_mul1(self):
         result1 = factorial(5)
         self.assertEqual(result1, 120)
